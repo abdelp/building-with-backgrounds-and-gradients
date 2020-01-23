@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* { box-sizing: border-box; }
+
+body {
+    margin-top: 0;
+}
+
+.hero {
+    background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
+    width: 1440px;
+    background-size: 1440px 1315px;
+    height: 650px;
+    background-position-x:50%;
+    background-position-y:100%;
+    margin: 0 auto;
+}
+
+.hero nav {
+    width: 100%;
+    display: flex;
+}
+
+.nav-ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 80px auto;
+}
+
+.nav-ul>li:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.nav-ul>li:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.nav-ul > li {
+    float: left;
+    background: -webkit-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
+    background: -o-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
+    background: -ms-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
+    background: -moz-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
+    background: linear-gradient(to top, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
+
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+.nav-ul > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+}
+
+.apple-logo {
+    background-image: url("https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.svg");
+}
+
+.hero > h2 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 100;
+}
+
+.hero > h3 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 100;
+}
+
+.hero > h4 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 100;
+}
+
+.promos-section {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aside-item {
+    width: 25%;
+    height: auto;
+}
+
+.aside-item img {
+    max-width: 100%;
+}
+
+footer ul {
+    display: inline-block;
+    list-style-type: none; 
+    margin: 0;
+    padding-top: 1.5em;
+}
+
+footer ul > li {
+    float: left;
+}
+
+footer section {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.contacts-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-section {
+    display: flex;
+}
+
+footer p {
+    color: rgb(110, 110, 110);
+    padding-top: 1.5em;
+    margin: 0;
+}
+
+footer a {
+    color: #08c;
+}
