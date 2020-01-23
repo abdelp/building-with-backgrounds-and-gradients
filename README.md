@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/abdelp/building-with-backgrounds-and-gradients/bb1733646e9c47177a359b0890954755392288d7/index.html)
+[Live Demo Link](https://rawcdn.githack.com/abdelp/building-with-backgrounds-and-gradients/d10ad5f7ec54afe1872a744f81e93d1c037b91a6/index.html)
 
 ## Author
 
