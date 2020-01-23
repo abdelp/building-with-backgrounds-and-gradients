@@ -27,21 +27,17 @@ section h6 {
   display: flex;
   padding-top: 80px;
   justify-content: center;
-
-  /* flex-wrap: wrap; */
 }
 
 .nav-ul {
   display: flex;
   list-style-type: none;
   padding-inline-start: 0;
-
-  /* flex-wrap: wrap; */
 }
 
 .nav-ul>li {
   float: left;
-  padding: 5px;
+  padding: 5px 5px 5px 5px;
   background: -webkit-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
   background: -o-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
   background: -ms-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
@@ -49,7 +45,7 @@ section h6 {
   background: linear-gradient(to top, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
 }
 
-.logo {
+#logo {
   border-radius: 5px 0 0 5px;
   padding-top: 0;
   padding-bottom: 0;
