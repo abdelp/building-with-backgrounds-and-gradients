@@ -35,14 +35,23 @@ section h6 {
   padding-inline-start: 0;
 }
 
-.nav-ul > li {
+.nav-ul > li, #globar-search {
   float: left;
   padding: 5px 5px 5px 5px;
-  background: -webkit-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
-  background: -o-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
-  background: -ms-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
-  background: -moz-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
-  background: linear-gradient(to top, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
+  border-right: 1px solid rgb(75,75,75);
+  background: -webkit-linear-gradient(bottom, rgb(100, 100, 70) 45%, rgb(123, 123, 123) 70%);
+  background: -o-linear-gradient(bottom, rgb(100, 100, 70) 45%, rgb(123, 123, 123) 70%);
+  background: -ms-linear-gradient(bottom, rgb(100, 100, 70) 45%, rgb(123, 123, 123) 70%);
+  background: -moz-linear-gradient(bottom, rgb(100, 100, 70) 45%, rgb(123, 123, 123) 70%);
+  background: linear-gradient(to top, rgb(100, 100, 100) 45%, rgb(123, 123, 123) 70%);
+}
+
+.nav-ul > li:hover {
+  background: -webkit-linear-gradient(bottom, rgb(25, 26, 26) 15%, rgb(76, 76, 76) 45%, rgb(38, 37, 37) 68%);
+  background: -o-linear-gradient(bottom, rgb(25, 26, 26) 15%, rgb(76, 76, 76) 45%, rgb(38, 37, 37) 68%);
+  background: -ms-linear-gradient(bottom, rgb(25, 26, 26) 15%, rgb(76, 76, 76) 45%, rgb(38, 37, 37) 68%);
+  background: -moz-linear-gradient(bottom, rgb(25, 26, 26) 15%, rgb(76, 76, 76) 45%, rgb(38, 37, 37) 68%);
+  background: linear-gradient(to top, rgb(25, 26, 26) 15%, rgb(76, 76, 76) 45%, rgb(38, 37, 37) 68%);
 }
 
 #logo {
@@ -50,6 +59,10 @@ section h6 {
   padding-top: 0;
   padding-bottom: 0;
   height: 29px;
+}
+
+#searchbar-li {
+  border-radius: 0 5px 5px 0;
 }
 
 a:link,
@@ -103,11 +116,11 @@ a:active {
 #global-search {
   position: relative;
   border-radius: 0 5px 5px 0;
-  background: -webkit-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
-  background: -o-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
-  background: -ms-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
-  background: -moz-linear-gradient(bottom, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
-  background: linear-gradient(to top, rgb(74, 74, 74) 45%, rgb(123, 123, 123) 70%);
+  background: -webkit-linear-gradient(bottom, rgb(100, 100, 100) 45%, rgb(123, 123, 123) 100%);
+  background: -o-linear-gradient(bottom, rgb(100, 100, 100) 45%, rgb(123, 123, 123) 100%);
+  background: -ms-linear-gradient(bottom, rgb(100, 100, 100) 45%, rgb(123, 123, 123) 100%);
+  background: -moz-linear-gradient(bottom, rgb(100, 100, 100) 45%, rgb(123, 123, 123) 100%);
+  background: linear-gradient(to top, rgb(100, 100, 100) 45%, rgb(123, 123, 123) 100%);
 }
 
 #globla-search div {
