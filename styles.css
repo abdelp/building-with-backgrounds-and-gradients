@@ -35,10 +35,11 @@ section h6 {
   padding-inline-start: 0;
 }
 
-.nav-ul > li, #globar-search {
+.nav-ul > li,
+#globar-search {
   float: left;
   padding: 5px 5px 5px 5px;
-  border-right: 1px solid rgb(75,75,75);
+  border-right: 1px solid rgb(75, 75, 75);
   background: -webkit-linear-gradient(bottom, rgb(100, 100, 70) 45%, rgb(123, 123, 123) 70%);
   background: -o-linear-gradient(bottom, rgb(100, 100, 70) 45%, rgb(123, 123, 123) 70%);
   background: -ms-linear-gradient(bottom, rgb(100, 100, 70) 45%, rgb(123, 123, 123) 70%);
@@ -46,7 +47,7 @@ section h6 {
   background: linear-gradient(to top, rgb(100, 100, 100) 45%, rgb(123, 123, 123) 70%);
 }
 
-.nav-ul > li:hover {
+.nav-li:hover {
   background: -webkit-linear-gradient(bottom, rgb(25, 26, 26) 15%, rgb(76, 76, 76) 45%, rgb(38, 37, 37) 68%);
   background: -o-linear-gradient(bottom, rgb(25, 26, 26) 15%, rgb(76, 76, 76) 45%, rgb(38, 37, 37) 68%);
   background: -ms-linear-gradient(bottom, rgb(25, 26, 26) 15%, rgb(76, 76, 76) 45%, rgb(38, 37, 37) 68%);
@@ -71,7 +72,7 @@ a:active {
   text-decoration: none;
 }
 
-.nav-ul > li > a {
+.nav-li > a {
   display: block;
   color: white;
   text-align: center;
@@ -153,7 +154,7 @@ a:active {
   font-weight: 100;
 }
 
-.h2-container > h2 {
+.h2-container > h2:hover {
   cursor: pointer;
 }
 
@@ -174,7 +175,6 @@ a:active {
   cursor: pointer;
 }
 
-
 .hero > h4 {
   text-align: center;
 }
@@ -186,7 +186,7 @@ a:active {
   font-weight: 100;
 }
 
-.hero > h4 > a:hover {
+h4 a:hover {
   text-decoration: underline;
 }
 
